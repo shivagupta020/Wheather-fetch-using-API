@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="wheather.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="home">
+        <div class="btn">
+          <input id="input" type="text" placeholder="Search for weather by city,location or co-ordinates" />
+          <button onclick="submit()">Search</button>
+        </div>
+        <div class="content">
+          <div class="loc">
+            <img src="location.png" alt="" width="20px" height="20px" />
+            <h2 id="loca" >Country</h2>
+          </div>
+          <div class="calender"><img src="calender.png" alt="" width="15px"> <p id="date" >Tuesday, January 01, 2024</p></div>
+          <div class="sun"> 
+            <img src="sun.png" alt="" width="40px" /><img
+              src="temp.png"
+              alt=""
+              width="40px"
+            />
+            <h2 id="temp" >75 </h2>
+          </div>
+          <div class="sunny">
+            <!-- <img src="sumsmall.png" alt="" width="20px" /> -->
+            <h4 id="sunny">Sunny</h4>
+          </div>
+          <div class="feellike">
+            <p id="feel">Feels Like :63</p>
+            <p id="hum">Humidity :60%</p>
+            <p id="wind">Wind Speed :10mps E</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="wheather.js"></script>
+  </body>
+</html>
